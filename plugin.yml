@@ -1,0 +1,16 @@
+name: NewRG
+main: NewPlugin\NewRG\Main
+version: 0.0.1
+api: 4.0.0
+author: BlusterySasha
+website: vk.com/blusterysasha
+
+commands:
+  rg:
+    aliases: [region, regions]
+    permission: newplugin.rg
+    description: Управление регионами
+
+permissions:
+  newplugin.rg:
+    default: true
