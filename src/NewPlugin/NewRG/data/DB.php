@@ -14,7 +14,7 @@ class DB {
 	}
 
 	public function contains(string $name) : bool {
-		return $this->regions->query("SELECT nick FROM users WHERE name = '" . strtolower($name) . "'")->fetchArray(SQLITE3_ASSOC) !== FALSE;
+		return $this->regions->query("SELECT name FROM regions WHERE name = '" . strtolower($name) . "'")->fetchArray(SQLITE3_ASSOC) !== FALSE;
 	}
 
 	public function getByName(string $name, string $get) : string|bool|int {
