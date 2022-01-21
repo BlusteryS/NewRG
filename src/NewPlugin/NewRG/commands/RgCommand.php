@@ -14,6 +14,6 @@ class RgCommand extends Command {
 	}
 
 	public function execute(CommandSender $sender, string $commandLabel, array $args) {
-		// todo
+		// TODO
 	}
 }
