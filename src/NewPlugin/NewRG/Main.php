@@ -17,7 +17,7 @@ class Main extends PluginBase {
 	}
 
 	private function registerCommands() {
-		$this->getServer()->getCommandMap()->register("soulapi", new RgCommand($this));
+		$this->getServer()->getCommandMap()->register("newrg", new RgCommand($this));
 	}
 
 	private function initDB() {
